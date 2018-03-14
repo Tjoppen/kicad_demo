@@ -462,29 +462,6 @@ Wire Wire Line
 Connection ~ 8100 3150
 Text Notes 4700 2200 0    60   ~ 0
 1000p trimmer originally
-$Comp
-L R R2
-U 1 1 5AA9AA3F
-P 7000 2400
-F 0 "R2" V 7080 2400 50  0000 C CNN
-F 1 "0" V 7000 2400 50  0000 C CNN
-F 2 "Resistors_Universal:Resistor_SMD+THTuniversal_0805to1206_RM10_HandSoldering" V 6930 2400 50  0001 C CNN
-F 3 "" H 7000 2400 50  0000 C CNN
-	1    7000 2400
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	7150 2400 7950 2400
-Wire Wire Line
-	7950 2400 7950 2700
-Connection ~ 7950 2700
-Wire Wire Line
-	6850 2400 6000 2400
-Wire Wire Line
-	6000 2400 6000 2700
-Connection ~ 6000 2700
-Text Notes 6550 2300 0    60   ~ 0
-Optional filter bypass
 Text Notes 5700 3500 0    60   ~ 0
 Coils are 24 turns of 1.5 mm insulated wire on 10 mm former\nhttp://mustcalculate.com/electronics/singlelayeraircoil.php?d=11.5&du=mm&l=36&lu=mm&i=1.75u
 $EndSCHEMATC
