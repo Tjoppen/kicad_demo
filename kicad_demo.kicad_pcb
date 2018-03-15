@@ -65,11 +65,12 @@
     (pad_size 4.064 4.064)
     (pad_drill 3.2)
     (pad_to_mask_clearance 0.2)
+    (solder_mask_min_width 0.4)
     (aux_axis_origin 0 0)
     (visible_elements FFFFEF7F)
     (pcbplotparams
       (layerselection 0x010a0_00000001)
-      (usegerberextensions false)
+      (usegerberextensions true)
       (excludeedgelayer true)
       (linewidth 0.100000)
       (plotframeref false)
