@@ -203,7 +203,7 @@ $Comp
 L Q_NPN_CBE Q1
 U 1 1 5AA980E8
 P 4300 3050
-F 0 "Q1" H 4500 3100 50  0000 L CNN
+F 0 "Q1" H 4500 3300 50  0000 L CNN
 F 1 "BC546" H 4500 3000 50  0000 L CNN
 F 2 "TO_SOT_Packages_THT:TO-92_Molded_Wide" H 4500 3150 50  0001 C CNN
 F 3 "" H 4300 3050 50  0000 C CNN
@@ -464,4 +464,26 @@ Text Notes 4700 2200 0    60   ~ 0
 1000p trimmer originally
 Text Notes 5700 3500 0    60   ~ 0
 Coils are 24 turns of 1.5 mm insulated wire on 10 mm former\nhttp://mustcalculate.com/electronics/singlelayeraircoil.php?d=11.5&du=mm&l=36&lu=mm&i=1.75u
+$Comp
+L Q_NPN_CBE Q2
+U 1 1 5AAAB82A
+P 4300 3050
+F 0 "Q2" H 4500 3200 50  0000 L CNN
+F 1 "BC546" H 4500 3000 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Molded_Wide" H 4500 3150 50  0001 C CNN
+F 3 "" H 4300 3050 50  0000 C CNN
+	1    4300 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Q_NPN_CBE Q3
+U 1 1 5AAABC4C
+P 4300 3050
+F 0 "Q3" H 4500 3100 50  0000 L CNN
+F 1 "BC546" H 4500 3000 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Molded_Wide" H 4500 3150 50  0001 C CNN
+F 3 "" H 4300 3050 50  0000 C CNN
+	1    4300 3050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
