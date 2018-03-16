@@ -92,12 +92,12 @@ $EndComp
 $Comp
 L L_Core_Ferrite L1
 U 1 1 5A6A33ED
-P 4400 2300
-F 0 "L1" V 4350 2300 50  0000 C CNN
-F 1 "100uH" V 4510 2300 50  0000 C CNN
-F 2 "Choke_Axial_ThroughHole:Choke_Horizontal_RM20mm" H 4400 2300 50  0001 C CNN
-F 3 "" H 4400 2300 50  0000 C CNN
-	1    4400 2300
+P 4400 2250
+F 0 "L1" V 4350 2250 50  0000 C CNN
+F 1 "100uH" V 4510 2250 50  0000 C CNN
+F 2 "Choke_Axial_ThroughHole:Choke_Horizontal_RM20mm" H 4400 2250 50  0001 C CNN
+F 3 "" H 4400 2250 50  0000 C CNN
+	1    4400 2250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -285,7 +285,7 @@ Connection ~ 3400 2800
 Wire Wire Line
 	3400 2050 4400 2050
 Wire Wire Line
-	4400 2050 4400 2150
+	4400 2050 4400 2100
 Connection ~ 3950 3750
 Wire Wire Line
 	3300 3750 3300 2900
@@ -298,13 +298,13 @@ Wire Wire Line
 Connection ~ 3900 3050
 Connection ~ 4400 2650
 Wire Wire Line
-	4400 2450 4400 2850
+	4400 2400 4400 2850
 Wire Wire Line
 	4250 2650 4400 2650
 Wire Wire Line
 	3900 2650 3950 2650
 Wire Wire Line
-	3900 3050 3900 2650
+	3900 2600 3900 3050
 Wire Wire Line
 	3800 3050 4100 3050
 Connection ~ 4400 3350
@@ -313,7 +313,7 @@ Wire Wire Line
 Wire Wire Line
 	4400 3350 4400 3250
 Wire Wire Line
-	4250 3350 4500 3350
+	4200 3350 4500 3350
 Wire Wire Line
 	4250 3400 4250 3350
 Connection ~ 4250 3750
@@ -390,7 +390,7 @@ Wire Wire Line
 	7300 2800 7300 2700
 Connection ~ 7300 2700
 Wire Wire Line
-	7000 2800 7000 2700
+	7000 2650 7000 2800
 Connection ~ 7000 2700
 Wire Wire Line
 	6100 2800 6100 2700
@@ -452,7 +452,7 @@ Wire Wire Line
 	8350 2200 8350 2800
 Connection ~ 8350 2700
 Wire Wire Line
-	8100 2700 8100 2800
+	8100 2650 8100 2800
 Connection ~ 8100 2700
 Wire Wire Line
 	8350 3150 8350 3100
@@ -486,4 +486,78 @@ F 3 "" H 4300 3050 50  0000 C CNN
 	1    4300 3050
 	1    0    0    -1  
 $EndComp
+$Comp
+L TEST_1P W1
+U 1 1 5AAC07A8
+P 4600 2650
+F 0 "W1" H 4600 2850 50  0000 C CNN
+F 1 "TEST_1P" H 4600 2850 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01" H 4800 2650 50  0001 C CNN
+F 3 "" H 4800 2650 50  0000 C CNN
+	1    4600 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 2650 4600 2700
+Connection ~ 4600 2700
+$Comp
+L TEST_1P W2
+U 1 1 5AAC0B76
+P 3900 2600
+F 0 "W2" H 3900 2800 50  0000 C CNN
+F 1 "TEST_1P" H 3900 2800 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01" H 4100 2600 50  0001 C CNN
+F 3 "" H 4100 2600 50  0000 C CNN
+	1    3900 2600
+	1    0    0    -1  
+$EndComp
+Connection ~ 3900 2650
+$Comp
+L TEST_1P W3
+U 1 1 5AAC0FB3
+P 5450 2650
+F 0 "W3" H 5450 2850 50  0000 C CNN
+F 1 "TEST_1P" H 5450 2850 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01" H 5650 2650 50  0001 C CNN
+F 3 "" H 5650 2650 50  0000 C CNN
+	1    5450 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 2700 5450 2650
+Connection ~ 5450 2700
+$Comp
+L TEST_1P W4
+U 1 1 5AAC1158
+P 7000 2650
+F 0 "W4" H 7000 2850 50  0000 C CNN
+F 1 "TEST_1P" H 7000 2850 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01" H 7200 2650 50  0001 C CNN
+F 3 "" H 7200 2650 50  0000 C CNN
+	1    7000 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P W5
+U 1 1 5AAC1388
+P 8100 2650
+F 0 "W5" H 8100 2850 50  0000 C CNN
+F 1 "TEST_1P" H 8100 2850 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01" H 8300 2650 50  0001 C CNN
+F 3 "" H 8300 2650 50  0000 C CNN
+	1    8100 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P W6
+U 1 1 5AAC16F8
+P 4200 3350
+F 0 "W6" H 4200 3550 50  0000 C CNN
+F 1 "TEST_1P" H 4200 3550 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01" H 4400 3350 50  0001 C CNN
+F 3 "" H 4400 3350 50  0000 C CNN
+	1    4200 3350
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4250 3350
 $EndSCHEMATC
