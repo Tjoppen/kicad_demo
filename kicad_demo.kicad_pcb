@@ -3,9 +3,9 @@
   (general
     (links 82)
     (no_connects 0)
-    (area 49.924999 74.924999 150.075001 125.075001)
+    (area 49.02384 73.95238 150.100001 126.797619)
     (thickness 1.6)
-    (drawings 13)
+    (drawings 14)
     (tracks 126)
     (zones 0)
     (modules 35)
@@ -37,7 +37,7 @@
   )
 
   (setup
-    (last_trace_width 1)
+    (last_trace_width 0.5)
     (user_trace_width 1)
     (user_trace_width 1.5)
     (user_trace_width 2)
@@ -1080,6 +1080,9 @@
     )
   )
 
+  (gr_text "Licensed under the TAPR Open Hardware License Version 1.0" (at 103.75 72) (layer Cmts.User)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
   (gr_text "24 turns on 10 mm former\nair core" (at 133 101.75 90) (layer F.SilkS) (tstamp 5AAC0471)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )

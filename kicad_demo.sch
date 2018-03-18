@@ -560,4 +560,6 @@ F 3 "" H 4400 3350 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Connection ~ 4250 3350
+Text Notes 2950 850  0    60   ~ 0
+Licensed under the TAPR Open Hardware License Version 1.0
 $EndSCHEMATC
