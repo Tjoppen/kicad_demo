@@ -562,4 +562,60 @@ $EndComp
 Connection ~ 4250 3350
 Text Notes 2950 850  0    60   ~ 0
 Licensed under the TAPR Open Hardware License Version 1.0
+$Comp
+L TEST_1P W7
+U 1 1 5AAED88E
+P 4150 2000
+F 0 "W7" H 4150 2200 50  0000 C CNN
+F 1 "TEST_1P" H 4150 2200 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01" H 4350 2000 50  0001 C CNN
+F 3 "" H 4350 2000 50  0000 C CNN
+	1    4150 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P W8
+U 1 1 5AAED942
+P 4300 2000
+F 0 "W8" H 4300 2200 50  0000 C CNN
+F 1 "TEST_1P" H 4300 2200 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01" H 4500 2000 50  0001 C CNN
+F 3 "" H 4500 2000 50  0000 C CNN
+	1    4300 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 2000 4150 2050
+Connection ~ 4150 2050
+Wire Wire Line
+	4300 2000 4300 2050
+Connection ~ 4300 2050
+$Comp
+L TEST_1P W9
+U 1 1 5AAEDAD1
+P 5000 3700
+F 0 "W9" H 5000 3900 50  0000 C CNN
+F 1 "TEST_1P" H 5000 3900 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01" H 5200 3700 50  0001 C CNN
+F 3 "" H 5200 3700 50  0000 C CNN
+	1    5000 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P W10
+U 1 1 5AAEDB8B
+P 5150 3700
+F 0 "W10" H 5150 3900 50  0000 C CNN
+F 1 "TEST_1P" H 5150 3900 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01" H 5350 3700 50  0001 C CNN
+F 3 "" H 5350 3700 50  0000 C CNN
+	1    5150 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 3700 5000 3750
+Connection ~ 5000 3750
+Wire Wire Line
+	5150 3700 5150 3750
+Connection ~ 5150 3750
 $EndSCHEMATC
