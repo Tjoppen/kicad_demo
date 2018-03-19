@@ -461,7 +461,7 @@ Wire Wire Line
 	8100 3100 8100 3150
 Connection ~ 8100 3150
 Text Notes 4700 2200 0    60   ~ 0
-1000p trimmer originally
+1000p trimmer originally\n100 pF works well\nSomewhere between 100-220 pF was the sweet spot, power-wise\nApprox 60 mW into 50 Ohm load from 9V supply
 Text Notes 5700 3500 0    60   ~ 0
 Coils are 24 turns of 1.5 mm insulated wire on 10 mm former\nhttp://mustcalculate.com/electronics/singlelayeraircoil.php?d=11.5&du=mm&l=36&lu=mm&i=1.75u
 $Comp
