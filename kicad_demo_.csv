@@ -1,0 +1,26 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,fit_field,Mouser PN,Mfg. Name,Mfg. Part Number
+1,Unpolarized capacitor,C,C3,100p,Resistor_SMD+THTuniversal_0805to1206_RM10_HandSoldering,1,,,810-FA28C0G1H10100,TDK,FA28C0G1H101JNU00
+2,Unpolarized capacitor,C,C1 C2,10nF,Resistor_SMD+THTuniversal_0805to1206_RM10_HandSoldering,2,,,667-ECH-U1H103JX5,Panasonic,ECH-U1H103JX5
+3,Unpolarized capacitor,C,C6 C12,270p,Resistor_SMD+THTuniversal_0805to1206_RM10_HandSoldering,2,,,810-FG28C0G1H271JNT0,TDK,FG28C0G1H271JNT00
+4,Unpolarized capacitor,C,C9,820p,Resistor_SMD+THTuniversal_0805to1206_RM10_HandSoldering,1,,,810-FG28C0G1H821JNT0,TDK,FG28C0G1H821JNT00
+5,Inductor with Ferrite Core,L_Core_Ferrite,L1,100uH,Choke_Horizontal_RM20mm,1,,,542-78F101-RC,Bourns,78F101J-RC
+6,"Connector, single row, 01x02",CONN_01X02,P2,key,SW_PUSH_6mm,1,,,506-FSM2JLH,TE Connectivity,FSM2JLH
+7,"Connector, single row, 01x02",CONN_01X02,P1,pwr,Pin_Header_Straight_1x02,1,,,534-81-8TB,Keystone Electronics,81-8
+8,Transistor NPN (general),Q_NPN_CBE,Q1,BC546,TO-92_Molded_Wide,1,,,821-BC546B-A1,Taiwan Semiconductor,BC546B A1
+9,Resistor,R,R1,22k,Resistor_SMD+THTuniversal_0805to1206_RM10_HandSoldering,1,,,652-CR1206FX-2202ELF,Bourns,CR1206-FX-2202ELF
+10,Two pin crystal,Crystal,Y1,7030 kHz,HC-49V,1,,,449-LFXTAL011525BULK,IQD,LFXTAL011525Bulk
+
+
+
+
+
+Component Groups:,17
+Component Count:,35
+Fitted Components:,12
+Number of PCBs:,1
+Total components:,12
+Schematic Version:,
+Schematic Date:,
+BoM Date:,tis 15 maj 2018 15:38:05
+Schematic Source:,/home/thardin/projects/radio/kicad_demo/kicad_demo.sch
+KiCad Version:,Eeschema 4.0.5+dfsg1-4

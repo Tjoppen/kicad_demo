@@ -53,6 +53,9 @@ F 0 "P1" H 3100 3000 50  0000 C CNN
 F 1 "pwr" V 3200 2850 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 3100 2850 50  0001 C CNN
 F 3 "" H 3100 2850 50  0000 C CNN
+F 4 "Keystone Electronics" H 3100 2850 60  0001 C CNN "Mfg. Name"
+F 5 "81-8" H 3100 2850 60  0001 C CNN "Mfg. Part Number"
+F 6 "534-81-8TB" H 3100 2850 60  0001 C CNN "Mouser PN"
 	1    3100 2850
 	-1   0    0    1   
 $EndComp
@@ -86,6 +89,9 @@ F 0 "C1" H 3625 2400 50  0000 L CNN
 F 1 "10nF" H 3625 2200 50  0000 L CNN
 F 2 "Resistors_Universal:Resistor_SMD+THTuniversal_0805to1206_RM10_HandSoldering" H 3638 2150 50  0001 C CNN
 F 3 "" H 3600 2300 50  0000 C CNN
+F 4 "Panasonic" H 3600 2300 60  0001 C CNN "Mfg. Name"
+F 5 "ECH-U1H103JX5" H 3600 2300 60  0001 C CNN "Mfg. Part Number"
+F 6 "667-ECH-U1H103JX5" H 3600 2300 60  0001 C CNN "Mouser PN"
 	1    3600 2300
 	1    0    0    -1  
 $EndComp
@@ -97,6 +103,9 @@ F 0 "L1" V 4350 2250 50  0000 C CNN
 F 1 "100uH" V 4510 2250 50  0000 C CNN
 F 2 "Choke_Axial_ThroughHole:Choke_Horizontal_RM20mm" H 4400 2250 50  0001 C CNN
 F 3 "" H 4400 2250 50  0000 C CNN
+F 4 "Bourns" H 4400 2250 60  0001 C CNN "Mfg. Name"
+F 5 "78F101J-RC" H 4400 2250 60  0001 C CNN "Mfg. Part Number"
+F 6 "542-78F101-RC" H 4400 2250 60  0001 C CNN "Mouser PN"
 	1    4400 2250
 	1    0    0    -1  
 $EndComp
@@ -108,6 +117,9 @@ F 0 "R1" V 3730 3050 50  0000 C CNN
 F 1 "22k" V 3650 3050 50  0000 C CNN
 F 2 "Resistors_Universal:Resistor_SMD+THTuniversal_0805to1206_RM10_HandSoldering" V 3580 3050 50  0001 C CNN
 F 3 "" H 3650 3050 50  0000 C CNN
+F 4 "Bourns" H 3650 3050 60  0001 C CNN "Mfg. Name"
+F 5 "CR1206-FX-2202ELF" H 3650 3050 60  0001 C CNN "Mfg. Part Number"
+F 6 "652-CR1206FX-2202ELF" H 3650 3050 60  0001 C CNN "Mouser PN"
 	1    3650 3050
 	0    1    1    0   
 $EndComp
@@ -116,21 +128,13 @@ L Crystal Y1
 U 1 1 5A6A34B6
 P 4100 2650
 F 0 "Y1" H 4100 2800 50  0000 C CNN
-F 1 "7020 kHz" H 4100 2500 50  0000 C CNN
+F 1 "7030 kHz" H 4100 2500 50  0000 C CNN
 F 2 "Crystals:HC-49V" H 4100 2650 50  0001 C CNN
 F 3 "" H 4100 2650 50  0000 C CNN
+F 4 "IQD" H 4100 2650 60  0001 C CNN "Mfg. Name"
+F 5 "LFXTAL011525Bulk" H 4100 2650 60  0001 C CNN "Mfg. Part Number"
+F 6 "449-LFXTAL011525BULK" H 4100 2650 60  0001 C CNN "Mouser PN"
 	1    4100 2650
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C2
-U 1 1 5A6A34F1
-P 4250 3550
-F 0 "C2" H 4275 3650 50  0000 L CNN
-F 1 "10nF" H 4275 3450 50  0000 L CNN
-F 2 "Resistors_Universal:Resistor_SMD+THTuniversal_0805to1206_RM10_HandSoldering" H 4288 3400 50  0001 C CNN
-F 3 "" H 4250 3550 50  0000 C CNN
-	1    4250 3550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -141,6 +145,9 @@ F 0 "P2" H 4700 3700 50  0000 C CNN
 F 1 "key" V 4800 3550 50  0000 C CNN
 F 2 "Buttons_Switches_ThroughHole:SW_PUSH_6mm" H 4700 3550 50  0001 C CNN
 F 3 "" H 4700 3550 50  0000 C CNN
+F 4 "TE Connectivity" H 4700 3550 60  0001 C CNN "Mfg. Name"
+F 5 "FSM2JLH" H 4700 3550 60  0001 C CNN "Mfg. Part Number"
+F 6 "506-FSM2JLH" H 4700 3550 60  0001 C CNN "Mouser PN"
 	1    4700 3550
 	1    0    0    -1  
 $EndComp
@@ -152,6 +159,7 @@ F 0 "AE1" H 8275 2075 50  0000 R CNN
 F 1 "Antenna" H 8275 2000 50  0000 R CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x01" H 8350 2000 50  0001 C CNN
 F 3 "" H 8350 2000 50  0001 C CNN
+F 4 "dnf" H 8200 1900 60  0001 C CNN "fit_field"
 	1    8350 2000
 	1    0    0    -1  
 $EndComp
@@ -163,6 +171,7 @@ F 0 "L2" V 6350 2700 50  0000 C CNN
 F 1 "1.75uH" V 6475 2700 50  0000 C CNN
 F 2 "PROJECT:1u75_coil" H 6400 2700 50  0001 C CNN
 F 3 "" H 6400 2700 50  0000 C CNN
+F 4 "dnf" H 6400 2700 60  0001 C CNN "fit_field"
 	1    6400 2700
 	0    -1   -1   0   
 $EndComp
@@ -174,6 +183,7 @@ F 0 "L3" V 7500 2700 50  0000 C CNN
 F 1 "1.75uH" V 7625 2700 50  0000 C CNN
 F 2 "PROJECT:1u75_coil" H 7550 2700 50  0001 C CNN
 F 3 "" H 7550 2700 50  0000 C CNN
+F 4 "dnf" H 7550 2700 60  0001 C CNN "fit_field"
 	1    7550 2700
 	0    -1   -1   0   
 $EndComp
@@ -182,9 +192,10 @@ L C C5
 U 1 1 5A6A391C
 P 5000 2450
 F 0 "C5" H 5025 2550 50  0000 L CNN
-F 1 "100p" H 5025 2350 50  0000 L CNN
+F 1 "0p" H 5025 2350 50  0000 L CNN
 F 2 "Resistors_Universal:Resistor_SMD+THTuniversal_0805to1206_RM10_HandSoldering" H 5038 2300 50  0001 C CNN
 F 3 "" H 5000 2450 50  0000 C CNN
+F 4 "dnf" H 5000 2450 60  0000 C CNN "fit_field"
 	1    5000 2450
 	0    -1   -1   0   
 $EndComp
@@ -207,19 +218,11 @@ F 0 "Q1" H 4500 3300 50  0000 L CNN
 F 1 "BC546" H 4500 3000 50  0000 L CNN
 F 2 "TO_SOT_Packages_THT:TO-92_Molded_Wide" H 4500 3150 50  0001 C CNN
 F 3 "" H 4300 3050 50  0000 C CNN
+F 4 "Taiwan Semiconductor" H 4300 3050 60  0001 C CNN "Mfg. Name"
+F 5 "BC546B A1" H 4300 3050 60  0001 C CNN "Mfg. Part Number"
+F 6 "821-BC546B-A1" H 4300 3050 60  0001 C CNN "Mouser PN"
 	1    4300 3050
 	1    0    0    -1  
-$EndComp
-$Comp
-L C C4
-U 1 1 5AA98635
-P 5000 2700
-F 0 "C4" H 5025 2800 50  0000 L CNN
-F 1 "100p" H 5025 2600 50  0000 L CNN
-F 2 "Resistors_Universal:Resistor_SMD+THTuniversal_0805to1206_RM10_HandSoldering" H 5038 2550 50  0001 C CNN
-F 3 "" H 5000 2700 50  0000 C CNN
-	1    5000 2700
-	0    -1   -1   0   
 $EndComp
 $Comp
 L C C3
@@ -229,6 +232,9 @@ F 0 "C3" H 5025 3050 50  0000 L CNN
 F 1 "100p" H 5025 2850 50  0000 L CNN
 F 2 "Resistors_Universal:Resistor_SMD+THTuniversal_0805to1206_RM10_HandSoldering" H 5038 2800 50  0001 C CNN
 F 3 "" H 5000 2950 50  0000 C CNN
+F 4 "TDK" H 5000 2950 60  0001 C CNN "Mfg. Name"
+F 5 "FA28C0G1H101JNU00" H 5000 2950 60  0001 C CNN "Mfg. Part Number"
+F 6 "810-FA28C0G1H10100" H 5000 2950 60  0001 C CNN "Mouser PN"
 	1    5000 2950
 	0    -1   -1   0   
 $EndComp
@@ -326,35 +332,14 @@ Wire Wire Line
 Wire Wire Line
 	4500 3750 4500 3600
 $Comp
-L C C6
-U 1 1 5AA98E66
-P 5600 2950
-F 0 "C6" H 5625 3050 50  0000 L CNN
-F 1 "200p" H 5625 2850 50  0000 L CNN
-F 2 "Resistors_Universal:Resistor_SMD+THTuniversal_0805to1206_RM10_HandSoldering" H 5638 2800 50  0001 C CNN
-F 3 "" H 5600 2950 50  0000 C CNN
-	1    5600 2950
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C7
-U 1 1 5AA991A6
-P 5850 2950
-F 0 "C7" H 5875 3050 50  0000 L CNN
-F 1 "60p" H 5875 2850 50  0000 L CNN
-F 2 "Resistors_Universal:Resistor_SMD+THTuniversal_0805to1206_RM10_HandSoldering" H 5888 2800 50  0001 C CNN
-F 3 "" H 5850 2950 50  0000 C CNN
-	1    5850 2950
-	1    0    0    -1  
-$EndComp
-$Comp
 L C C8
 U 1 1 5AA991F6
 P 6100 2950
 F 0 "C8" H 6125 3050 50  0000 L CNN
-F 1 "7p" H 6125 2850 50  0000 L CNN
+F 1 "0p" H 6125 2850 50  0000 L CNN
 F 2 "Resistors_Universal:Resistor_SMD+THTuniversal_0805to1206_RM10_HandSoldering" H 6138 2800 50  0001 C CNN
 F 3 "" H 6100 2950 50  0000 C CNN
+F 4 "dnf" H 6100 2950 60  0000 C CNN "fit_field"
 	1    6100 2950
 	1    0    0    -1  
 $EndComp
@@ -363,9 +348,10 @@ L C C10
 U 1 1 5AA99438
 P 7000 2950
 F 0 "C10" H 7025 3050 50  0000 L CNN
-F 1 "60p" H 7025 2850 50  0000 L CNN
+F 1 "40p" H 7025 2850 50  0000 L CNN
 F 2 "Resistors_Universal:Resistor_SMD+THTuniversal_0805to1206_RM10_HandSoldering" H 7038 2800 50  0001 C CNN
 F 3 "" H 7000 2950 50  0000 C CNN
+F 4 "dnf" H 7000 2950 60  0000 C CNN "fit_field"
 	1    7000 2950
 	1    0    0    -1  
 $EndComp
@@ -377,6 +363,7 @@ F 0 "C11" H 7325 3050 50  0000 L CNN
 F 1 "5p" H 7325 2850 50  0000 L CNN
 F 2 "Resistors_Universal:Resistor_SMD+THTuniversal_0805to1206_RM10_HandSoldering" H 7338 2800 50  0001 C CNN
 F 3 "" H 7300 2950 50  0000 C CNN
+F 4 "dnf" H 7300 2950 60  0000 C CNN "fit_field"
 	1    7300 2950
 	1    0    0    -1  
 $EndComp
@@ -409,21 +396,13 @@ L C C9
 U 1 1 5AA99C75
 P 6700 2950
 F 0 "C9" H 6725 3050 50  0000 L CNN
-F 1 "800p" H 6725 2850 50  0000 L CNN
+F 1 "820p" H 6725 2850 50  0000 L CNN
 F 2 "Resistors_Universal:Resistor_SMD+THTuniversal_0805to1206_RM10_HandSoldering" H 6738 2800 50  0001 C CNN
 F 3 "" H 6700 2950 50  0000 C CNN
+F 4 "TDK" H 6700 2950 60  0001 C CNN "Mfg. Name"
+F 5 "FG28C0G1H821JNT00" H 6700 2950 60  0001 C CNN "Mfg. Part Number"
+F 6 "810-FG28C0G1H821JNT0" H 6700 2950 60  0001 C CNN "Mouser PN"
 	1    6700 2950
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C12
-U 1 1 5AA99E24
-P 7850 2950
-F 0 "C12" H 7875 3050 50  0000 L CNN
-F 1 "200p" H 7875 2850 50  0000 L CNN
-F 2 "Resistors_Universal:Resistor_SMD+THTuniversal_0805to1206_RM10_HandSoldering" H 7888 2800 50  0001 C CNN
-F 3 "" H 7850 2950 50  0000 C CNN
-	1    7850 2950
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -431,9 +410,10 @@ L C C13
 U 1 1 5AA99E2A
 P 8100 2950
 F 0 "C13" H 8125 3050 50  0000 L CNN
-F 1 "60p" H 8125 2850 50  0000 L CNN
+F 1 "0p" H 8125 2850 50  0000 L CNN
 F 2 "Resistors_Universal:Resistor_SMD+THTuniversal_0805to1206_RM10_HandSoldering" H 8138 2800 50  0001 C CNN
 F 3 "" H 8100 2950 50  0000 C CNN
+F 4 "dnf" H 8100 2950 60  0000 C CNN "fit_field"
 	1    8100 2950
 	1    0    0    -1  
 $EndComp
@@ -442,9 +422,10 @@ L C C14
 U 1 1 5AA99E30
 P 8350 2950
 F 0 "C14" H 8375 3050 50  0000 L CNN
-F 1 "7p" H 8375 2850 50  0000 L CNN
+F 1 "0p" H 8375 2850 50  0000 L CNN
 F 2 "Resistors_Universal:Resistor_SMD+THTuniversal_0805to1206_RM10_HandSoldering" H 8388 2800 50  0001 C CNN
 F 3 "" H 8350 2950 50  0000 C CNN
+F 4 "dnf" H 8350 2950 60  0000 C CNN "fit_field"
 	1    8350 2950
 	1    0    0    -1  
 $EndComp
@@ -465,28 +446,6 @@ Text Notes 4700 2200 0    60   ~ 0
 Text Notes 5700 3500 0    60   ~ 0
 Coils are 24 turns of 1.5 mm insulated wire on 10 mm former\nhttp://mustcalculate.com/electronics/singlelayeraircoil.php?d=11.5&du=mm&l=36&lu=mm&i=1.75u
 $Comp
-L Q_NPN_CBE Q2
-U 1 1 5AAAB82A
-P 4300 3050
-F 0 "Q2" H 4500 3200 50  0000 L CNN
-F 1 "BC546" H 4500 3000 50  0000 L CNN
-F 2 "TO_SOT_Packages_THT:TO-92_Molded_Wide" H 4500 3150 50  0001 C CNN
-F 3 "" H 4300 3050 50  0000 C CNN
-	1    4300 3050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Q_NPN_CBE Q3
-U 1 1 5AAABC4C
-P 4300 3050
-F 0 "Q3" H 4500 3100 50  0000 L CNN
-F 1 "BC546" H 4500 3000 50  0000 L CNN
-F 2 "TO_SOT_Packages_THT:TO-92_Molded_Wide" H 4500 3150 50  0001 C CNN
-F 3 "" H 4300 3050 50  0000 C CNN
-	1    4300 3050
-	1    0    0    -1  
-$EndComp
-$Comp
 L TEST_1P W1
 U 1 1 5AAC07A8
 P 4600 2650
@@ -494,6 +453,7 @@ F 0 "W1" H 4600 2850 50  0000 C CNN
 F 1 "TEST_1P" H 4600 2850 50  0001 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x01" H 4800 2650 50  0001 C CNN
 F 3 "" H 4800 2650 50  0000 C CNN
+F 4 "dnf" H 4600 2650 60  0001 C CNN "fit_field"
 	1    4600 2650
 	1    0    0    -1  
 $EndComp
@@ -508,6 +468,7 @@ F 0 "W2" H 3900 2800 50  0000 C CNN
 F 1 "TEST_1P" H 3900 2800 50  0001 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x01" H 4100 2600 50  0001 C CNN
 F 3 "" H 4100 2600 50  0000 C CNN
+F 4 "dnf" H 3900 2600 60  0001 C CNN "fit_field"
 	1    3900 2600
 	1    0    0    -1  
 $EndComp
@@ -520,6 +481,7 @@ F 0 "W3" H 5450 2850 50  0000 C CNN
 F 1 "TEST_1P" H 5450 2850 50  0001 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x01" H 5650 2650 50  0001 C CNN
 F 3 "" H 5650 2650 50  0000 C CNN
+F 4 "dnf" H 5450 2650 60  0001 C CNN "fit_field"
 	1    5450 2650
 	1    0    0    -1  
 $EndComp
@@ -534,6 +496,7 @@ F 0 "W4" H 7000 2850 50  0000 C CNN
 F 1 "TEST_1P" H 7000 2850 50  0001 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x01" H 7200 2650 50  0001 C CNN
 F 3 "" H 7200 2650 50  0000 C CNN
+F 4 "dnf" H 7000 2650 60  0001 C CNN "fit_field"
 	1    7000 2650
 	1    0    0    -1  
 $EndComp
@@ -545,6 +508,7 @@ F 0 "W5" H 8100 2850 50  0000 C CNN
 F 1 "TEST_1P" H 8100 2850 50  0001 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x01" H 8300 2650 50  0001 C CNN
 F 3 "" H 8300 2650 50  0000 C CNN
+F 4 "dnf" H 8100 2650 60  0001 C CNN "fit_field"
 	1    8100 2650
 	1    0    0    -1  
 $EndComp
@@ -556,6 +520,7 @@ F 0 "W6" H 4200 3550 50  0000 C CNN
 F 1 "TEST_1P" H 4200 3550 50  0001 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x01" H 4400 3350 50  0001 C CNN
 F 3 "" H 4400 3350 50  0000 C CNN
+F 4 "dnf" H 4200 3350 60  0001 C CNN "fit_field"
 	1    4200 3350
 	0    -1   -1   0   
 $EndComp
@@ -570,6 +535,7 @@ F 0 "W7" H 4150 2200 50  0000 C CNN
 F 1 "TEST_1P" H 4150 2200 50  0001 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x01" H 4350 2000 50  0001 C CNN
 F 3 "" H 4350 2000 50  0000 C CNN
+F 4 "dnf" H 4150 2000 60  0001 C CNN "fit_field"
 	1    4150 2000
 	1    0    0    -1  
 $EndComp
@@ -581,6 +547,7 @@ F 0 "W8" H 4300 2200 50  0000 C CNN
 F 1 "TEST_1P" H 4300 2200 50  0001 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x01" H 4500 2000 50  0001 C CNN
 F 3 "" H 4500 2000 50  0000 C CNN
+F 4 "dnf" H 4300 2000 60  0001 C CNN "fit_field"
 	1    4300 2000
 	1    0    0    -1  
 $EndComp
@@ -598,6 +565,7 @@ F 0 "W9" H 5000 3900 50  0000 C CNN
 F 1 "TEST_1P" H 5000 3900 50  0001 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x01" H 5200 3700 50  0001 C CNN
 F 3 "" H 5200 3700 50  0000 C CNN
+F 4 "dnf" H 5000 3700 60  0001 C CNN "fit_field"
 	1    5000 3700
 	1    0    0    -1  
 $EndComp
@@ -609,6 +577,7 @@ F 0 "W10" H 5150 3900 50  0000 C CNN
 F 1 "TEST_1P" H 5150 3900 50  0001 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x01" H 5350 3700 50  0001 C CNN
 F 3 "" H 5350 3700 50  0000 C CNN
+F 4 "dnf" H 5150 3700 60  0001 C CNN "fit_field"
 	1    5150 3700
 	1    0    0    -1  
 $EndComp
@@ -618,4 +587,100 @@ Connection ~ 5000 3750
 Wire Wire Line
 	5150 3700 5150 3750
 Connection ~ 5150 3750
+$Comp
+L C C2
+U 1 1 5AB40DFC
+P 4250 3550
+F 0 "C2" H 4275 3650 50  0000 L CNN
+F 1 "10nF" H 4275 3450 50  0000 L CNN
+F 2 "Resistors_Universal:Resistor_SMD+THTuniversal_0805to1206_RM10_HandSoldering" H 4288 3400 50  0001 C CNN
+F 3 "" H 4250 3550 50  0000 C CNN
+F 4 "Panasonic" H 4250 3550 60  0001 C CNN "Mfg. Name"
+F 5 "ECH-U1H103JX5" H 4250 3550 60  0001 C CNN "Mfg. Part Number"
+F 6 "667-ECH-U1H103JX5" H 4250 3550 60  0001 C CNN "Mouser PN"
+	1    4250 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Q_NPN_CBE Q2
+U 1 1 5AB417ED
+P 4300 3050
+F 0 "Q2" H 4500 3200 50  0000 L CNN
+F 1 "BC546" H 4500 3000 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Molded_Wide" H 4500 3150 50  0001 C CNN
+F 3 "" H 4300 3050 50  0000 C CNN
+F 4 "Taiwan Semiconductor" H 4300 3050 60  0001 C CNN "Mfg. Name"
+F 5 "BC546B A1" H 4300 3050 60  0001 C CNN "Mfg. Part Number"
+F 6 "821-BC546B-A1" H 4300 3050 60  0001 C CNN "Mouser PN"
+F 7 "dnf" H 4650 3200 60  0000 C CNN "fit_field"
+	1    4300 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Q_NPN_CBE Q3
+U 1 1 5AB41909
+P 4300 3050
+F 0 "Q3" H 4500 3100 50  0000 L CNN
+F 1 "BC546" H 4500 3000 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Molded_Wide" H 4500 3150 50  0001 C CNN
+F 3 "" H 4300 3050 50  0000 C CNN
+F 4 "Taiwan Semiconductor" H 4300 3050 60  0001 C CNN "Mfg. Name"
+F 5 "BC546B A1" H 4300 3050 60  0001 C CNN "Mfg. Part Number"
+F 6 "821-BC546B-A1" H 4300 3050 60  0001 C CNN "Mouser PN"
+F 7 "dnf" H 4650 3100 60  0000 C CNN "fit_field"
+	1    4300 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C4
+U 1 1 5AA98635
+P 5000 2700
+F 0 "C4" H 5025 2800 50  0000 L CNN
+F 1 "0p" H 5025 2600 50  0000 L CNN
+F 2 "Resistors_Universal:Resistor_SMD+THTuniversal_0805to1206_RM10_HandSoldering" H 5038 2550 50  0001 C CNN
+F 3 "" H 5000 2700 50  0000 C CNN
+F 4 "dnf" H 5000 2700 60  0000 C CNN "fit_field"
+	1    5000 2700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C C7
+U 1 1 5AA991A6
+P 5850 2950
+F 0 "C7" H 5875 3050 50  0000 L CNN
+F 1 "0p" H 5875 2850 50  0000 L CNN
+F 2 "Resistors_Universal:Resistor_SMD+THTuniversal_0805to1206_RM10_HandSoldering" H 5888 2800 50  0001 C CNN
+F 3 "" H 5850 2950 50  0000 C CNN
+F 4 "dnf" H 5850 2950 60  0000 C CNN "fit_field"
+	1    5850 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C6
+U 1 1 5AA98E66
+P 5600 2950
+F 0 "C6" H 5625 3050 50  0000 L CNN
+F 1 "270p" H 5625 2850 50  0000 L CNN
+F 2 "Resistors_Universal:Resistor_SMD+THTuniversal_0805to1206_RM10_HandSoldering" H 5638 2800 50  0001 C CNN
+F 3 "" H 5600 2950 50  0000 C CNN
+F 4 "TDK" H 5600 2950 60  0001 C CNN "Mfg. Name"
+F 5 "FG28C0G1H271JNT00" H 5600 2950 60  0001 C CNN "Mfg. Part Number"
+F 6 "810-FG28C0G1H271JNT0" H 5600 2950 60  0001 C CNN "Mouser PN"
+	1    5600 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C12
+U 1 1 5AFADA2B
+P 7850 2950
+F 0 "C12" H 7875 3050 50  0000 L CNN
+F 1 "270p" H 7875 2850 50  0000 L CNN
+F 2 "Resistors_Universal:Resistor_SMD+THTuniversal_0805to1206_RM10_HandSoldering" H 7888 2800 50  0001 C CNN
+F 3 "" H 7850 2950 50  0000 C CNN
+F 4 "TDK" H 7850 2950 60  0001 C CNN "Mfg. Name"
+F 5 "FG28C0G1H271JNT00" H 7850 2950 60  0001 C CNN "Mfg. Part Number"
+F 6 "810-FG28C0G1H271JNT0" H 7850 2950 60  0001 C CNN "Mouser PN"
+	1    7850 2950
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
